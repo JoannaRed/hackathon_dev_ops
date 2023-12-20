@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev -p 8081",
     "build": "next build",
-    "start": "next start -p 8081"
+    "start": "node_modules/next/dist/bin/next start"
   },
   "dependencies": {
     "@web5/api": "^0.8.3",
