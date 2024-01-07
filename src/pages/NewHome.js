@@ -308,12 +308,12 @@ export default function NewHome({ fetchSendMessage }) {
             className="rounded-2xl bg-gray-100 py-3 px-5 w-full"
           />
         </div>
-        <button
+        {/* <button
           onClick={() => setShowNewDIDModal(!showNewDIDModal)}
           className="h-12 w-12 p-2 bg-yellow-500 rounded-full text-white font-semibold flex items-center justify-center"
         >
           New DID
-        </button>
+        </button> */}
         <button
           onClick={() => setShowProfilModal(!showProfilModal)}
           className="h-12 w-12 p-2 bg-yellow-500 rounded-full text-white font-semibold flex items-center justify-center"
